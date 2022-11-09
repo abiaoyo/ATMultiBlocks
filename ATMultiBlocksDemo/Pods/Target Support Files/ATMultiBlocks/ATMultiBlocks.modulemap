@@ -1,0 +1,6 @@
+framework module ATMultiBlocks {
+  umbrella header "ATMultiBlocks-umbrella.h"
+
+  export *
+  module * { export * }
+}

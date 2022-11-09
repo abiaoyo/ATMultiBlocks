@@ -1,0 +1,16 @@
+PODS:
+  - ATMultiBlocks (0.1.0)
+
+DEPENDENCIES:
+  - ATMultiBlocks (from `../ATMultiBlocks`)
+
+EXTERNAL SOURCES:
+  ATMultiBlocks:
+    :path: "../ATMultiBlocks"
+
+SPEC CHECKSUMS:
+  ATMultiBlocks: 834c0988e102202e8166e4071276c2df8e35eb2e
+
+PODFILE CHECKSUM: 3b9509365c9e6f476ab3257cec29b0b21cc93d16
+
+COCOAPODS: 1.11.3
