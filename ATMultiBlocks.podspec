@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   s.swift_version = '4.0'
 
-  s.source_files = 'ATMultiBlocks/ATMultiBlocks/Classes/**/*'
+  s.source_files = 'ATMultiBlocks/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'ATMultiBlocks' => ['ATMultiBlocks/Assets/*.png']
