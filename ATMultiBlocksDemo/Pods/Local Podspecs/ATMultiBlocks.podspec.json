@@ -19,6 +19,6 @@
     "ios": "10.0"
   },
   "swift_versions": "4.0",
-  "source_files": "ATMultiBlocks/Classes/**/*",
+  "source_files": "ATMultiBlocks/ATMultiBlocks/Classes/**/*",
   "swift_version": "4.0"
 }
