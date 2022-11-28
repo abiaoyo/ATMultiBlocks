@@ -6,6 +6,6 @@ target 'ATMultiBlocksDemo' do
   use_frameworks!
 
   # Pods for ATMultiBlocksDemo
-  pod 'ATMultiBlocks', :path => '../ATMultiBlocks'
+  pod 'ATMultiBlocks', :path => '../'
 
 end

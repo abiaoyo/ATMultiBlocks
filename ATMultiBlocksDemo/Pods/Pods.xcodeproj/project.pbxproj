@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0033EBF787EE2C5D8217592276ECE6F5 /* ATMBWeakMapTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304091A6D864038DA9571BAA863AB159 /* ATMBWeakMapTable.swift */; };
 		0A50DAC16B24FF7C1F44CC645577B5EC /* Pods-ATMultiBlocksDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4269CD7DFF06BCD134D2A186822414E0 /* Pods-ATMultiBlocksDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		126F5065D0835145B438F7F7DF56674A /* Pods-ATMultiBlocksDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF9547BE06F8796901F398A9660F8 /* Pods-ATMultiBlocksDemo-dummy.m */; };
-		270264D6A83AFF9F97C7C88EFA753606 /* ATMBWeakMapTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD357650C62E96D5630230A5FE8B8A /* ATMBWeakMapTable.swift */; };
-		36BC17B74C45B09FC1040F9F41C93BB6 /* ATMBDeallocHook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2021C9B966150AD166A74A1B23243AA1 /* ATMBDeallocHook.swift */; };
-		4ADFACEFEC8C6C7B058F81E60439C310 /* ATMultiBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549A440648802BC1E114181120BEF6EF /* ATMultiBlocks.swift */; };
-		53D5D8D8291B49C900F253CD /* OCATMultiBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D5D8D7291B49C900F253CD /* OCATMultiBlocks.swift */; };
-		74E4C09112C312726B4060B48D090DA4 /* ATMultiBlocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5AAF608B61BB5B9F935BA004F1A491 /* ATMultiBlocks-dummy.m */; };
 		8663CE8307A02CCD304C8CD04D654533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AD7F27C529EEF7E1CE81147ACAD8236C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FAA7B944EB9CDF87EFAE4C7866E63AC8 /* ATMultiBlocks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B05F9482A17AEBDF3FFEF67C0705B02 /* ATMultiBlocks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87B2BCF6562451A8FCE3DCAFE8590C6F /* ATMBDeallocHook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019EF4D0E7F7C5EA01834C01E5C0FD4 /* ATMBDeallocHook.swift */; };
+		8B9328422AC42B851F35DBA106468298 /* ATMultiBlocks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EB173FF00921284ECC2DD3CD6E7F /* ATMultiBlocks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9581CE304A75382EB59A7F21C566D6 /* OCATMultiBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664253AC239B46DC3BD1E9FECD13ECC0 /* OCATMultiBlocks.swift */; };
+		AE138B5E52864F91398BF7564D82437B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E0CDD06392FA8F9083DBB8EA98065C57 /* ATMultiBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822EC20D0E7C56E0DB921A065911272 /* ATMultiBlocks.swift */; };
+		FA3791495454152B74C6B38296F96ED5 /* ATMultiBlocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FB9CB76770BFC015BC155EE2CF0CCB /* ATMultiBlocks-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EFD4E799F8D960EF99451EB4E1C55F8E /* PBXContainerItemProxy */ = {
+		84C640FB0DE94B813C15F95B568A1963 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -30,44 +30,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F9023F72FE92180CEC26E2E2D89ADEE /* ATMultiBlocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATMultiBlocks.release.xcconfig; sourceTree = "<group>"; };
+		1103975A363EFF0A0FE5E5ACB9E6D781 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		154EF9547BE06F8796901F398A9660F8 /* Pods-ATMultiBlocksDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATMultiBlocksDemo-dummy.m"; sourceTree = "<group>"; };
 		165E0CB04B9E9632CE605A561F0E542F /* ATMultiBlocks */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ATMultiBlocks; path = ATMultiBlocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19DEC34F4BAA503CA80652B7D922AEAC /* ATMultiBlocks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATMultiBlocks.debug.xcconfig; sourceTree = "<group>"; };
 		1FA472F721C02BA38480C1D183E305EE /* Pods-ATMultiBlocksDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ATMultiBlocksDemo"; path = Pods_ATMultiBlocksDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2021C9B966150AD166A74A1B23243AA1 /* ATMBDeallocHook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATMBDeallocHook.swift; path = ATMultiBlocks/Classes/ATMBDeallocHook.swift; sourceTree = "<group>"; };
+		2019EF4D0E7F7C5EA01834C01E5C0FD4 /* ATMBDeallocHook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATMBDeallocHook.swift; path = ATMultiBlocks/Classes/ATMBDeallocHook.swift; sourceTree = "<group>"; };
 		2B937A7F0947F2792E539FB0F852FF52 /* Pods-ATMultiBlocksDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATMultiBlocksDemo-frameworks.sh"; sourceTree = "<group>"; };
-		2CFD357650C62E96D5630230A5FE8B8A /* ATMBWeakMapTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATMBWeakMapTable.swift; path = ATMultiBlocks/Classes/ATMBWeakMapTable.swift; sourceTree = "<group>"; };
+		2E07C9DA83081FF4578BED8DEC0BF4B3 /* ATMultiBlocks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATMultiBlocks-Info.plist"; sourceTree = "<group>"; };
+		304091A6D864038DA9571BAA863AB159 /* ATMBWeakMapTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATMBWeakMapTable.swift; path = ATMultiBlocks/Classes/ATMBWeakMapTable.swift; sourceTree = "<group>"; };
+		3062E6D3FC1D0009E07E89613F3E04F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4269CD7DFF06BCD134D2A186822414E0 /* Pods-ATMultiBlocksDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATMultiBlocksDemo-umbrella.h"; sourceTree = "<group>"; };
-		46EEB44D900A315C073B302B94897C68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		495B8369982FAA867DCB47F3A5C11697 /* ATMultiBlocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATMultiBlocks-prefix.pch"; sourceTree = "<group>"; };
-		53D5D8D7291B49C900F253CD /* OCATMultiBlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OCATMultiBlocks.swift; path = ATMultiBlocks/Classes/OCATMultiBlocks.swift; sourceTree = "<group>"; };
-		549A440648802BC1E114181120BEF6EF /* ATMultiBlocks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATMultiBlocks.swift; path = ATMultiBlocks/Classes/ATMultiBlocks.swift; sourceTree = "<group>"; };
-		5BE169DEF949DBDF5FAAC8CC1D7A2F4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5D26AC6DCFEF384D76F281570BA430BD /* ATMultiBlocks.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ATMultiBlocks.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5909425FB7916A7A1EACCD12F26DA48B /* ATMultiBlocks.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATMultiBlocks.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		664253AC239B46DC3BD1E9FECD13ECC0 /* OCATMultiBlocks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OCATMultiBlocks.swift; path = ATMultiBlocks/Classes/OCATMultiBlocks.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7B05F9482A17AEBDF3FFEF67C0705B02 /* ATMultiBlocks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATMultiBlocks-umbrella.h"; sourceTree = "<group>"; };
-		8141FF3403CAFD59E03573A9FA8DA40D /* ATMultiBlocks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATMultiBlocks.modulemap; sourceTree = "<group>"; };
 		82BE6B6D53D2B29D60C12ADC0D4EDAAE /* Pods-ATMultiBlocksDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATMultiBlocksDemo.release.xcconfig"; sourceTree = "<group>"; };
-		8D5AAF608B61BB5B9F935BA004F1A491 /* ATMultiBlocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATMultiBlocks-dummy.m"; sourceTree = "<group>"; };
-		9CF3F6AEBBC39357F2B1E906E3430423 /* ATMultiBlocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATMultiBlocks.release.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96EB294842652F61027AF2FFFF195919 /* ATMultiBlocks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATMultiBlocks.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AECF7CF8C490B1785FFE4D7C1CBE675D /* Pods-ATMultiBlocksDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATMultiBlocksDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B5E7EB173FF00921284ECC2DD3CD6E7F /* ATMultiBlocks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATMultiBlocks-umbrella.h"; sourceTree = "<group>"; };
+		C7FB9CB76770BFC015BC155EE2CF0CCB /* ATMultiBlocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATMultiBlocks-dummy.m"; sourceTree = "<group>"; };
+		C822EC20D0E7C56E0DB921A065911272 /* ATMultiBlocks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATMultiBlocks.swift; path = ATMultiBlocks/Classes/ATMultiBlocks.swift; sourceTree = "<group>"; };
 		CB4CB6133640D83274AA8733BAD8EC21 /* Pods-ATMultiBlocksDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATMultiBlocksDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D0D9C1B69ED65D5A3769264F3CE33C30 /* Pods-ATMultiBlocksDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATMultiBlocksDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		D336B40A580941965073F754D8DF02BC /* Pods-ATMultiBlocksDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATMultiBlocksDemo-Info.plist"; sourceTree = "<group>"; };
+		EC6F633261BC738659B44560949717E9 /* ATMultiBlocks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATMultiBlocks.debug.xcconfig; sourceTree = "<group>"; };
+		F7B1034766FA617C3C204FDCB94217A5 /* ATMultiBlocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATMultiBlocks-prefix.pch"; sourceTree = "<group>"; };
 		F8A53A1BC84FCDDA76E765ABC5947BB4 /* Pods-ATMultiBlocksDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATMultiBlocksDemo.modulemap"; sourceTree = "<group>"; };
-		F8A800D407DBF51BE743A212321BA8B0 /* ATMultiBlocks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATMultiBlocks-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		25573AFDC3E477D92DB1F1A976D3076C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AD7F27C529EEF7E1CE81147ACAD8236C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5E57CA05F763EA7A253BCCB37AF0B024 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,17 +68,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76D7AE121889E54DCD1BB16562384CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE138B5E52864F91398BF7564D82437B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2B1CD4DF35564B357E4BF39449E48BBE /* Pod */ = {
+		32183BA3605D9CBCDE0FBFFBF5CF2AC3 /* ATMultiBlocks */ = {
 			isa = PBXGroup;
 			children = (
-				5D26AC6DCFEF384D76F281570BA430BD /* ATMultiBlocks.podspec */,
-				46EEB44D900A315C073B302B94897C68 /* LICENSE */,
-				5BE169DEF949DBDF5FAAC8CC1D7A2F4B /* README.md */,
+				2019EF4D0E7F7C5EA01834C01E5C0FD4 /* ATMBDeallocHook.swift */,
+				304091A6D864038DA9571BAA863AB159 /* ATMBWeakMapTable.swift */,
+				C822EC20D0E7C56E0DB921A065911272 /* ATMultiBlocks.swift */,
+				664253AC239B46DC3BD1E9FECD13ECC0 /* OCATMultiBlocks.swift */,
+				B7B4BA37C3FEE0DF0A5EF75B9C6CCE41 /* Pod */,
+				804CEC379583820EB43E56D445F978BF /* Support Files */,
 			);
-			name = Pod;
+			name = ATMultiBlocks;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		355CEC8F07EE14CA88657993066CE7AD /* Targets Support Files */ = {
@@ -106,41 +110,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D2ECE22A8AE34F3B995847307D55587 /* ATMultiBlocks */ = {
-			isa = PBXGroup;
-			children = (
-				549A440648802BC1E114181120BEF6EF /* ATMultiBlocks.swift */,
-				53D5D8D7291B49C900F253CD /* OCATMultiBlocks.swift */,
-				2021C9B966150AD166A74A1B23243AA1 /* ATMBDeallocHook.swift */,
-				2CFD357650C62E96D5630230A5FE8B8A /* ATMBWeakMapTable.swift */,
-				2B1CD4DF35564B357E4BF39449E48BBE /* Pod */,
-				5EDD0A250C17C96F6CB7DB30578E4DDD /* Support Files */,
-			);
-			name = ATMultiBlocks;
-			path = ../../ATMultiBlocks;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		5EDD0A250C17C96F6CB7DB30578E4DDD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8141FF3403CAFD59E03573A9FA8DA40D /* ATMultiBlocks.modulemap */,
-				8D5AAF608B61BB5B9F935BA004F1A491 /* ATMultiBlocks-dummy.m */,
-				F8A800D407DBF51BE743A212321BA8B0 /* ATMultiBlocks-Info.plist */,
-				495B8369982FAA867DCB47F3A5C11697 /* ATMultiBlocks-prefix.pch */,
-				7B05F9482A17AEBDF3FFEF67C0705B02 /* ATMultiBlocks-umbrella.h */,
-				19DEC34F4BAA503CA80652B7D922AEAC /* ATMultiBlocks.debug.xcconfig */,
-				9CF3F6AEBBC39357F2B1E906E3430423 /* ATMultiBlocks.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../ATMultiBlocksDemo/Pods/Target Support Files/ATMultiBlocks";
 			sourceTree = "<group>";
 		};
 		626246FEAC5E3FAC0916326C9763423B /* Pods-ATMultiBlocksDemo */ = {
@@ -160,11 +135,44 @@
 			path = "Target Support Files/Pods-ATMultiBlocksDemo";
 			sourceTree = "<group>";
 		};
+		804CEC379583820EB43E56D445F978BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96EB294842652F61027AF2FFFF195919 /* ATMultiBlocks.modulemap */,
+				C7FB9CB76770BFC015BC155EE2CF0CCB /* ATMultiBlocks-dummy.m */,
+				2E07C9DA83081FF4578BED8DEC0BF4B3 /* ATMultiBlocks-Info.plist */,
+				F7B1034766FA617C3C204FDCB94217A5 /* ATMultiBlocks-prefix.pch */,
+				B5E7EB173FF00921284ECC2DD3CD6E7F /* ATMultiBlocks-umbrella.h */,
+				EC6F633261BC738659B44560949717E9 /* ATMultiBlocks.debug.xcconfig */,
+				0F9023F72FE92180CEC26E2E2D89ADEE /* ATMultiBlocks.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "ATMultiBlocksDemo/Pods/Target Support Files/ATMultiBlocks";
+			sourceTree = "<group>";
+		};
+		A923787ECA19C739D5B3264568758A7E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32183BA3605D9CBCDE0FBFFBF5CF2AC3 /* ATMultiBlocks */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B7B4BA37C3FEE0DF0A5EF75B9C6CCE41 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5909425FB7916A7A1EACCD12F26DA48B /* ATMultiBlocks.podspec */,
+				3062E6D3FC1D0009E07E89613F3E04F2 /* LICENSE */,
+				1103975A363EFF0A0FE5E5ACB9E6D781 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F92F67BC2517640093FFA506556D5A7E /* Development Pods */,
+				A923787ECA19C739D5B3264568758A7E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4BA27A88F9B5335C60A827021D16C213 /* Products */,
 				355CEC8F07EE14CA88657993066CE7AD /* Targets Support Files */,
@@ -179,22 +187,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F92F67BC2517640093FFA506556D5A7E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4D2ECE22A8AE34F3B995847307D55587 /* ATMultiBlocks */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D10945D8EC8FB7791E50E9C140920C49 /* Headers */ = {
+		63D3582B4E9E9414FBD0DD0C5BBFECCF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA7B944EB9CDF87EFAE4C7866E63AC8 /* ATMultiBlocks-umbrella.h in Headers */,
+				8B9328422AC42B851F35DBA106468298 /* ATMultiBlocks-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +211,12 @@
 /* Begin PBXNativeTarget section */
 		1DC75DEF454476B37203130B8A2CC008 /* ATMultiBlocks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B032E8452C6E0830BF1E5165DEB85155 /* Build configuration list for PBXNativeTarget "ATMultiBlocks" */;
+			buildConfigurationList = 6B50D58272B55AD5BDFF0D835C1D2DFE /* Build configuration list for PBXNativeTarget "ATMultiBlocks" */;
 			buildPhases = (
-				D10945D8EC8FB7791E50E9C140920C49 /* Headers */,
-				05855C4226CDD6E736EF35B844266EF2 /* Sources */,
-				25573AFDC3E477D92DB1F1A976D3076C /* Frameworks */,
-				17892BCCBDB1740C175853C65ED25775 /* Resources */,
+				63D3582B4E9E9414FBD0DD0C5BBFECCF /* Headers */,
+				919B22E84058DDB9CC2AFE52FA708D89 /* Sources */,
+				76D7AE121889E54DCD1BB16562384CEA /* Frameworks */,
+				FF94FC5AD94B0E8E0C1DE090C23B5939 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -239,7 +239,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				DDFEAC6D51F2C70CB07FF72011C1617E /* PBXTargetDependency */,
+				C383CFA76DFD468CB7E044EBA2173C61 /* PBXTargetDependency */,
 			);
 			name = "Pods-ATMultiBlocksDemo";
 			productName = Pods_ATMultiBlocksDemo;
@@ -275,14 +275,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		17892BCCBDB1740C175853C65ED25775 /* Resources */ = {
+		4297416F8BFDAD16421167B470E6F4E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4297416F8BFDAD16421167B470E6F4E8 /* Resources */ = {
+		FF94FC5AD94B0E8E0C1DE090C23B5939 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,15 +292,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05855C4226CDD6E736EF35B844266EF2 /* Sources */ = {
+		919B22E84058DDB9CC2AFE52FA708D89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53D5D8D8291B49C900F253CD /* OCATMultiBlocks.swift in Sources */,
-				74E4C09112C312726B4060B48D090DA4 /* ATMultiBlocks-dummy.m in Sources */,
-				4ADFACEFEC8C6C7B058F81E60439C310 /* ATMultiBlocks.swift in Sources */,
-				36BC17B74C45B09FC1040F9F41C93BB6 /* ATMBDeallocHook.swift in Sources */,
-				270264D6A83AFF9F97C7C88EFA753606 /* ATMBWeakMapTable.swift in Sources */,
+				87B2BCF6562451A8FCE3DCAFE8590C6F /* ATMBDeallocHook.swift in Sources */,
+				0033EBF787EE2C5D8217592276ECE6F5 /* ATMBWeakMapTable.swift in Sources */,
+				E0CDD06392FA8F9083DBB8EA98065C57 /* ATMultiBlocks.swift in Sources */,
+				FA3791495454152B74C6B38296F96ED5 /* ATMultiBlocks-dummy.m in Sources */,
+				9E9581CE304A75382EB59A7F21C566D6 /* OCATMultiBlocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,113 +315,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DDFEAC6D51F2C70CB07FF72011C1617E /* PBXTargetDependency */ = {
+		C383CFA76DFD468CB7E044EBA2173C61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ATMultiBlocks;
 			target = 1DC75DEF454476B37203130B8A2CC008 /* ATMultiBlocks */;
-			targetProxy = EFD4E799F8D960EF99451EB4E1C55F8E /* PBXContainerItemProxy */;
+			targetProxy = 84C640FB0DE94B813C15F95B568A1963 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		65DB1357141CAEA543A1E9D233EE5956 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19DEC34F4BAA503CA80652B7D922AEAC /* ATMultiBlocks.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ATMultiBlocks/ATMultiBlocks-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ATMultiBlocks/ATMultiBlocks-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ATMultiBlocks/ATMultiBlocks.modulemap";
-				PRODUCT_MODULE_NAME = ATMultiBlocks;
-				PRODUCT_NAME = ATMultiBlocks;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		71FB73701815B2BCD4CF084C68B066D5 /* Debug */ = {
+		124A1EC0AB694C71C2FF3E97B98349D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AECF7CF8C490B1785FFE4D7C1CBE675D /* Pods-ATMultiBlocksDemo.debug.xcconfig */;
 			buildSettings = {
@@ -437,7 +340,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ATMultiBlocksDemo/Pods-ATMultiBlocksDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,47 +361,9 @@
 			};
 			name = Debug;
 		};
-		99A1A3A913C16B2E4BE5285CC4C6E54A /* Release */ = {
+		58265F04780B0CFE7E923EFE848E6DAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82BE6B6D53D2B29D60C12ADC0D4EDAAE /* Pods-ATMultiBlocksDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ATMultiBlocksDemo/Pods-ATMultiBlocksDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ATMultiBlocksDemo/Pods-ATMultiBlocksDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E7E577D001F7A426D82B0B5A6D34F4B7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CF3F6AEBBC39357F2B1E906E3430423 /* ATMultiBlocks.release.xcconfig */;
+			baseConfigurationReference = EC6F633261BC738659B44560949717E9 /* ATMultiBlocks.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -524,7 +389,42 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F410C72D4D0471C4655EB5C85D6448A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9023F72FE92180CEC26E2E2D89ADEE /* ATMultiBlocks.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATMultiBlocks/ATMultiBlocks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATMultiBlocks/ATMultiBlocks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ATMultiBlocks/ATMultiBlocks.modulemap";
+				PRODUCT_MODULE_NAME = ATMultiBlocks;
+				PRODUCT_NAME = ATMultiBlocks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -532,7 +432,7 @@
 			};
 			name = Release;
 		};
-		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -585,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -598,14 +498,114 @@
 			};
 			name = Debug;
 		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA77182DD5BFB77BABC1A37A009F3495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82BE6B6D53D2B29D60C12ADC0D4EDAAE /* Pods-ATMultiBlocksDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATMultiBlocksDemo/Pods-ATMultiBlocksDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATMultiBlocksDemo/Pods-ATMultiBlocksDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
-				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -613,17 +613,17 @@
 		50EBF693F5B4160FD1BDB0F30A76AD70 /* Build configuration list for PBXNativeTarget "Pods-ATMultiBlocksDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71FB73701815B2BCD4CF084C68B066D5 /* Debug */,
-				99A1A3A913C16B2E4BE5285CC4C6E54A /* Release */,
+				124A1EC0AB694C71C2FF3E97B98349D7 /* Debug */,
+				BA77182DD5BFB77BABC1A37A009F3495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B032E8452C6E0830BF1E5165DEB85155 /* Build configuration list for PBXNativeTarget "ATMultiBlocks" */ = {
+		6B50D58272B55AD5BDFF0D835C1D2DFE /* Build configuration list for PBXNativeTarget "ATMultiBlocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				65DB1357141CAEA543A1E9D233EE5956 /* Debug */,
-				E7E577D001F7A426D82B0B5A6D34F4B7 /* Release */,
+				58265F04780B0CFE7E923EFE848E6DAD /* Debug */,
+				5F410C72D4D0471C4655EB5C85D6448A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

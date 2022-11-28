@@ -1,6 +1,6 @@
 {
   "name": "ATMultiBlocks",
-  "version": "0.1.0",
+  "version": "0.2",
   "summary": "A short description of ATMultiBlocks.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/abiaoyo/ATMultiBlocks",
@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/abiaoyo/ATMultiBlocks.git",
-    "tag": "0.1.0"
+    "tag": "0.2"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "ATMultiBlocks/Classes/**/*"
+  "swift_versions": "4.0",
+  "source_files": "ATMultiBlocks/Classes/**/*",
+  "swift_version": "4.0"
 }
