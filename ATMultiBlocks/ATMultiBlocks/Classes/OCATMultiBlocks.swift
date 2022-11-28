@@ -5,13 +5,13 @@ public class OCATMultiBlocks: NSObject {
     
     private lazy var blocks = ATMultiBlocks.init()
     
-    public func register(_ key: String, owner: AnyObject, handler: @escaping ATMultiBlocks.ATMultiBlocksHandler) {
+    public func register(key: String, owner: AnyObject, handler: @escaping ATMultiBlocks.ATMultiBlocksHandler) {
         blocks.register(key, owner: owner, handler: handler)
     }
-    public func call(_ key: String, data: Any? = nil) {
+    public func call(key: String, data: Any? = nil) {
         blocks.call(key, data: data)
     }
-    public func remove(_ key: String, owner: AnyObject? = nil) {
+    public func remove(key: String, owner: AnyObject? = nil) {
         blocks.remove(key, owner: owner)
     }
     public func remove(owner: AnyObject) {
