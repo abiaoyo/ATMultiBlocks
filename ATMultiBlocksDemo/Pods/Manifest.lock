@@ -1,5 +1,5 @@
 PODS:
-  - ATMultiBlocks (0.2)
+  - ATMultiBlocks (0.3)
 
 DEPENDENCIES:
   - ATMultiBlocks (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ATMultiBlocks: f2d2df8473fcc917452e9c788a84bfc4515f6b41
+  ATMultiBlocks: 3ebb6d0bf661708bab1a9b2aea67f3c50c3fcc18
 
 PODFILE CHECKSUM: c774da23c16ac5b3c29e50988219831b3d024cd5
 

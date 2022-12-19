@@ -105,6 +105,7 @@
 				53D5D8B8291B437500F253CD /* Sources */,
 				53D5D8B9291B437500F253CD /* Frameworks */,
 				53D5D8BA291B437500F253CD /* Resources */,
+				0B43190B78DB41C743555107 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,6 +163,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0B43190B78DB41C743555107 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ATMultiBlocksDemo/Pods-ATMultiBlocksDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ATMultiBlocksDemo/Pods-ATMultiBlocksDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ATMultiBlocksDemo/Pods-ATMultiBlocksDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		30FF724C18FA29C6C15CC42A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -6,26 +6,21 @@
 	objectVersion = 56;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		1DC75DEF454476B37203130B8A2CC008 /* ATMultiBlocks */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 6DDBC3304EDBA4E7B4C71426EC16A13F /* Build configuration list for PBXAggregateTarget "ATMultiBlocks" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = ATMultiBlocks;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		0A50DAC16B24FF7C1F44CC645577B5EC /* Pods-ATMultiBlocksDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D53B4B380F490B69A763689BB76E4A22 /* Pods-ATMultiBlocksDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		126F5065D0835145B438F7F7DF56674A /* Pods-ATMultiBlocksDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C1793CB6CE7020C6C179AD99484E4F /* Pods-ATMultiBlocksDemo-dummy.m */; };
+		0033EBF787EE2C5D8217592276ECE6F5 /* ATMBWeakMapTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304091A6D864038DA9571BAA863AB159 /* ATMBWeakMapTable.swift */; };
+		0A50DAC16B24FF7C1F44CC645577B5EC /* Pods-ATMultiBlocksDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4269CD7DFF06BCD134D2A186822414E0 /* Pods-ATMultiBlocksDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		126F5065D0835145B438F7F7DF56674A /* Pods-ATMultiBlocksDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 154EF9547BE06F8796901F398A9660F8 /* Pods-ATMultiBlocksDemo-dummy.m */; };
 		8663CE8307A02CCD304C8CD04D654533 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		87B2BCF6562451A8FCE3DCAFE8590C6F /* ATMBDeallocHook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019EF4D0E7F7C5EA01834C01E5C0FD4 /* ATMBDeallocHook.swift */; };
+		8B9328422AC42B851F35DBA106468298 /* ATMultiBlocks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EB173FF00921284ECC2DD3CD6E7F /* ATMultiBlocks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E9581CE304A75382EB59A7F21C566D6 /* OCATMultiBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664253AC239B46DC3BD1E9FECD13ECC0 /* OCATMultiBlocks.swift */; };
+		AE138B5E52864F91398BF7564D82437B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E0CDD06392FA8F9083DBB8EA98065C57 /* ATMultiBlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822EC20D0E7C56E0DB921A065911272 /* ATMultiBlocks.swift */; };
+		FA3791495454152B74C6B38296F96ED5 /* ATMultiBlocks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FB9CB76770BFC015BC155EE2CF0CCB /* ATMultiBlocks-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9E6C05D02E74FA2FB3664FC4C93B9822 /* PBXContainerItemProxy */ = {
+		84C640FB0DE94B813C15F95B568A1963 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,22 +30,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		024BE8B1A0D754C15F394777ED8691A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		06810E3578DA5845E7DD96C754C05122 /* Pods-ATMultiBlocksDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATMultiBlocksDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		13C1793CB6CE7020C6C179AD99484E4F /* Pods-ATMultiBlocksDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATMultiBlocksDemo-dummy.m"; sourceTree = "<group>"; };
-		1CA6CD5F48C2BFB9ABDB35432D61C332 /* Pods-ATMultiBlocksDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATMultiBlocksDemo.modulemap"; sourceTree = "<group>"; };
+		0F9023F72FE92180CEC26E2E2D89ADEE /* ATMultiBlocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATMultiBlocks.release.xcconfig; sourceTree = "<group>"; };
+		1103975A363EFF0A0FE5E5ACB9E6D781 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		154EF9547BE06F8796901F398A9660F8 /* Pods-ATMultiBlocksDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATMultiBlocksDemo-dummy.m"; sourceTree = "<group>"; };
+		165E0CB04B9E9632CE605A561F0E542F /* ATMultiBlocks */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ATMultiBlocks; path = ATMultiBlocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FA472F721C02BA38480C1D183E305EE /* Pods-ATMultiBlocksDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ATMultiBlocksDemo"; path = Pods_ATMultiBlocksDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2019EF4D0E7F7C5EA01834C01E5C0FD4 /* ATMBDeallocHook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATMBDeallocHook.swift; path = ATMultiBlocks/Classes/ATMBDeallocHook.swift; sourceTree = "<group>"; };
+		2B937A7F0947F2792E539FB0F852FF52 /* Pods-ATMultiBlocksDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ATMultiBlocksDemo-frameworks.sh"; sourceTree = "<group>"; };
+		2E07C9DA83081FF4578BED8DEC0BF4B3 /* ATMultiBlocks-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATMultiBlocks-Info.plist"; sourceTree = "<group>"; };
+		304091A6D864038DA9571BAA863AB159 /* ATMBWeakMapTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATMBWeakMapTable.swift; path = ATMultiBlocks/Classes/ATMBWeakMapTable.swift; sourceTree = "<group>"; };
+		3062E6D3FC1D0009E07E89613F3E04F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4269CD7DFF06BCD134D2A186822414E0 /* Pods-ATMultiBlocksDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATMultiBlocksDemo-umbrella.h"; sourceTree = "<group>"; };
+		5909425FB7916A7A1EACCD12F26DA48B /* ATMultiBlocks.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATMultiBlocks.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		664253AC239B46DC3BD1E9FECD13ECC0 /* OCATMultiBlocks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OCATMultiBlocks.swift; path = ATMultiBlocks/Classes/OCATMultiBlocks.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		782FECF6C82E74EED94CC6D248B1DAF5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		80535D7D064D18A2E4A247EDBC74EA6C /* ATMultiBlocks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATMultiBlocks.release.xcconfig; sourceTree = "<group>"; };
-		90F6516B846024ACDF12C2DE6FA9CBE7 /* Pods-ATMultiBlocksDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATMultiBlocksDemo.release.xcconfig"; sourceTree = "<group>"; };
-		9655DD2FC6A4B150921F4820F28E5E76 /* Pods-ATMultiBlocksDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATMultiBlocksDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		82BE6B6D53D2B29D60C12ADC0D4EDAAE /* Pods-ATMultiBlocksDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATMultiBlocksDemo.release.xcconfig"; sourceTree = "<group>"; };
+		96EB294842652F61027AF2FFFF195919 /* ATMultiBlocks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATMultiBlocks.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2157DCD515D5BC3E796FBA3AF7BD935 /* Pods-ATMultiBlocksDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATMultiBlocksDemo-Info.plist"; sourceTree = "<group>"; };
-		A3C2A1E895759DBA5C6C4BBFE1F555E5 /* ATMultiBlocks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATMultiBlocks.debug.xcconfig; sourceTree = "<group>"; };
-		A7ACE6073651F94A9DB9526D7AAF462F /* Pods-ATMultiBlocksDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATMultiBlocksDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		D53B4B380F490B69A763689BB76E4A22 /* Pods-ATMultiBlocksDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATMultiBlocksDemo-umbrella.h"; sourceTree = "<group>"; };
-		EF7CC6451E87857C940ECC3CC23AABCA /* ATMultiBlocks.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATMultiBlocks.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AECF7CF8C490B1785FFE4D7C1CBE675D /* Pods-ATMultiBlocksDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATMultiBlocksDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B5E7EB173FF00921284ECC2DD3CD6E7F /* ATMultiBlocks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATMultiBlocks-umbrella.h"; sourceTree = "<group>"; };
+		C7FB9CB76770BFC015BC155EE2CF0CCB /* ATMultiBlocks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATMultiBlocks-dummy.m"; sourceTree = "<group>"; };
+		C822EC20D0E7C56E0DB921A065911272 /* ATMultiBlocks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ATMultiBlocks.swift; path = ATMultiBlocks/Classes/ATMultiBlocks.swift; sourceTree = "<group>"; };
+		CB4CB6133640D83274AA8733BAD8EC21 /* Pods-ATMultiBlocksDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATMultiBlocksDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D0D9C1B69ED65D5A3769264F3CE33C30 /* Pods-ATMultiBlocksDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATMultiBlocksDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D336B40A580941965073F754D8DF02BC /* Pods-ATMultiBlocksDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATMultiBlocksDemo-Info.plist"; sourceTree = "<group>"; };
+		EC6F633261BC738659B44560949717E9 /* ATMultiBlocks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATMultiBlocks.debug.xcconfig; sourceTree = "<group>"; };
+		F7B1034766FA617C3C204FDCB94217A5 /* ATMultiBlocks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATMultiBlocks-prefix.pch"; sourceTree = "<group>"; };
+		F8A53A1BC84FCDDA76E765ABC5947BB4 /* Pods-ATMultiBlocksDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATMultiBlocksDemo.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,17 +68,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76D7AE121889E54DCD1BB16562384CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE138B5E52864F91398BF7564D82437B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		374A59CE087DBA73953AEB0F4F9F779B /* Pod */ = {
+		32183BA3605D9CBCDE0FBFFBF5CF2AC3 /* ATMultiBlocks */ = {
 			isa = PBXGroup;
 			children = (
-				EF7CC6451E87857C940ECC3CC23AABCA /* ATMultiBlocks.podspec */,
-				024BE8B1A0D754C15F394777ED8691A6 /* LICENSE */,
-				782FECF6C82E74EED94CC6D248B1DAF5 /* README.md */,
+				2019EF4D0E7F7C5EA01834C01E5C0FD4 /* ATMBDeallocHook.swift */,
+				304091A6D864038DA9571BAA863AB159 /* ATMBWeakMapTable.swift */,
+				C822EC20D0E7C56E0DB921A065911272 /* ATMultiBlocks.swift */,
+				664253AC239B46DC3BD1E9FECD13ECC0 /* OCATMultiBlocks.swift */,
+				B7B4BA37C3FEE0DF0A5EF75B9C6CCE41 /* Pod */,
+				804CEC379583820EB43E56D445F978BF /* Support Files */,
 			);
-			name = Pod;
+			name = ATMultiBlocks;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		355CEC8F07EE14CA88657993066CE7AD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				626246FEAC5E3FAC0916326C9763423B /* Pods-ATMultiBlocksDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4BA27A88F9B5335C60A827021D16C213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				165E0CB04B9E9632CE605A561F0E542F /* ATMultiBlocks */,
+				1FA472F721C02BA38480C1D183E305EE /* Pods-ATMultiBlocksDemo */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -83,54 +118,64 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		72B883633BF0611E03089D331B63FFCB /* Targets Support Files */ = {
+		626246FEAC5E3FAC0916326C9763423B /* Pods-ATMultiBlocksDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C6B98CBA4E29AEB178D78EBAC1C0C3E6 /* Pods-ATMultiBlocksDemo */,
+				F8A53A1BC84FCDDA76E765ABC5947BB4 /* Pods-ATMultiBlocksDemo.modulemap */,
+				CB4CB6133640D83274AA8733BAD8EC21 /* Pods-ATMultiBlocksDemo-acknowledgements.markdown */,
+				D0D9C1B69ED65D5A3769264F3CE33C30 /* Pods-ATMultiBlocksDemo-acknowledgements.plist */,
+				154EF9547BE06F8796901F398A9660F8 /* Pods-ATMultiBlocksDemo-dummy.m */,
+				2B937A7F0947F2792E539FB0F852FF52 /* Pods-ATMultiBlocksDemo-frameworks.sh */,
+				D336B40A580941965073F754D8DF02BC /* Pods-ATMultiBlocksDemo-Info.plist */,
+				4269CD7DFF06BCD134D2A186822414E0 /* Pods-ATMultiBlocksDemo-umbrella.h */,
+				AECF7CF8C490B1785FFE4D7C1CBE675D /* Pods-ATMultiBlocksDemo.debug.xcconfig */,
+				82BE6B6D53D2B29D60C12ADC0D4EDAAE /* Pods-ATMultiBlocksDemo.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-ATMultiBlocksDemo";
+			path = "Target Support Files/Pods-ATMultiBlocksDemo";
 			sourceTree = "<group>";
 		};
-		7360E71C2D563EB917713D1341E53373 /* Products */ = {
+		804CEC379583820EB43E56D445F978BF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1FA472F721C02BA38480C1D183E305EE /* Pods-ATMultiBlocksDemo */,
+				96EB294842652F61027AF2FFFF195919 /* ATMultiBlocks.modulemap */,
+				C7FB9CB76770BFC015BC155EE2CF0CCB /* ATMultiBlocks-dummy.m */,
+				2E07C9DA83081FF4578BED8DEC0BF4B3 /* ATMultiBlocks-Info.plist */,
+				F7B1034766FA617C3C204FDCB94217A5 /* ATMultiBlocks-prefix.pch */,
+				B5E7EB173FF00921284ECC2DD3CD6E7F /* ATMultiBlocks-umbrella.h */,
+				EC6F633261BC738659B44560949717E9 /* ATMultiBlocks.debug.xcconfig */,
+				0F9023F72FE92180CEC26E2E2D89ADEE /* ATMultiBlocks.release.xcconfig */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "ATMultiBlocksDemo/Pods/Target Support Files/ATMultiBlocks";
 			sourceTree = "<group>";
 		};
-		893F405289042899BA87E1EF2F8D4782 /* Development Pods */ = {
+		A923787ECA19C739D5B3264568758A7E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E6F0868531217E418C098F131686359B /* ATMultiBlocks */,
+				32183BA3605D9CBCDE0FBFFBF5CF2AC3 /* ATMultiBlocks */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C6B98CBA4E29AEB178D78EBAC1C0C3E6 /* Pods-ATMultiBlocksDemo */ = {
+		B7B4BA37C3FEE0DF0A5EF75B9C6CCE41 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1CA6CD5F48C2BFB9ABDB35432D61C332 /* Pods-ATMultiBlocksDemo.modulemap */,
-				9655DD2FC6A4B150921F4820F28E5E76 /* Pods-ATMultiBlocksDemo-acknowledgements.markdown */,
-				06810E3578DA5845E7DD96C754C05122 /* Pods-ATMultiBlocksDemo-acknowledgements.plist */,
-				13C1793CB6CE7020C6C179AD99484E4F /* Pods-ATMultiBlocksDemo-dummy.m */,
-				A2157DCD515D5BC3E796FBA3AF7BD935 /* Pods-ATMultiBlocksDemo-Info.plist */,
-				D53B4B380F490B69A763689BB76E4A22 /* Pods-ATMultiBlocksDemo-umbrella.h */,
-				A7ACE6073651F94A9DB9526D7AAF462F /* Pods-ATMultiBlocksDemo.debug.xcconfig */,
-				90F6516B846024ACDF12C2DE6FA9CBE7 /* Pods-ATMultiBlocksDemo.release.xcconfig */,
+				5909425FB7916A7A1EACCD12F26DA48B /* ATMultiBlocks.podspec */,
+				3062E6D3FC1D0009E07E89613F3E04F2 /* LICENSE */,
+				1103975A363EFF0A0FE5E5ACB9E6D781 /* README.md */,
 			);
-			name = "Pods-ATMultiBlocksDemo";
-			path = "Target Support Files/Pods-ATMultiBlocksDemo";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				893F405289042899BA87E1EF2F8D4782 /* Development Pods */,
+				A923787ECA19C739D5B3264568758A7E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				7360E71C2D563EB917713D1341E53373 /* Products */,
-				72B883633BF0611E03089D331B63FFCB /* Targets Support Files */,
+				4BA27A88F9B5335C60A827021D16C213 /* Products */,
+				355CEC8F07EE14CA88657993066CE7AD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,29 +187,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D32D98AD36D7FC53E2325AB6832F2C63 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A3C2A1E895759DBA5C6C4BBFE1F555E5 /* ATMultiBlocks.debug.xcconfig */,
-				80535D7D064D18A2E4A247EDBC74EA6C /* ATMultiBlocks.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "ATMultiBlocksDemo/Pods/Target Support Files/ATMultiBlocks";
-			sourceTree = "<group>";
-		};
-		E6F0868531217E418C098F131686359B /* ATMultiBlocks */ = {
-			isa = PBXGroup;
-			children = (
-				374A59CE087DBA73953AEB0F4F9F779B /* Pod */,
-				D32D98AD36D7FC53E2325AB6832F2C63 /* Support Files */,
-			);
-			name = ATMultiBlocks;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		63D3582B4E9E9414FBD0DD0C5BBFECCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9328422AC42B851F35DBA106468298 /* ATMultiBlocks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D286ED36C6F26B1CAC87A2C27B39C28C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -176,6 +209,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1DC75DEF454476B37203130B8A2CC008 /* ATMultiBlocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B50D58272B55AD5BDFF0D835C1D2DFE /* Build configuration list for PBXNativeTarget "ATMultiBlocks" */;
+			buildPhases = (
+				63D3582B4E9E9414FBD0DD0C5BBFECCF /* Headers */,
+				919B22E84058DDB9CC2AFE52FA708D89 /* Sources */,
+				76D7AE121889E54DCD1BB16562384CEA /* Frameworks */,
+				FF94FC5AD94B0E8E0C1DE090C23B5939 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATMultiBlocks;
+			productName = ATMultiBlocks;
+			productReference = 165E0CB04B9E9632CE605A561F0E542F /* ATMultiBlocks */;
+			productType = "com.apple.product-type.framework";
+		};
 		6669A983E4DD949A6619165E5CBDC3BB /* Pods-ATMultiBlocksDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50EBF693F5B4160FD1BDB0F30A76AD70 /* Build configuration list for PBXNativeTarget "Pods-ATMultiBlocksDemo" */;
@@ -188,7 +239,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				73C1A6CFDEE75E07A27F3585587CA234 /* PBXTargetDependency */,
+				C383CFA76DFD468CB7E044EBA2173C61 /* PBXTargetDependency */,
 			);
 			name = "Pods-ATMultiBlocksDemo";
 			productName = Pods_ATMultiBlocksDemo;
@@ -213,7 +264,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7360E71C2D563EB917713D1341E53373 /* Products */;
+			productRefGroup = 4BA27A88F9B5335C60A827021D16C213 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -231,9 +282,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF94FC5AD94B0E8E0C1DE090C23B5939 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		919B22E84058DDB9CC2AFE52FA708D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B2BCF6562451A8FCE3DCAFE8590C6F /* ATMBDeallocHook.swift in Sources */,
+				0033EBF787EE2C5D8217592276ECE6F5 /* ATMBWeakMapTable.swift in Sources */,
+				E0CDD06392FA8F9083DBB8EA98065C57 /* ATMultiBlocks.swift in Sources */,
+				FA3791495454152B74C6B38296F96ED5 /* ATMultiBlocks-dummy.m in Sources */,
+				9E9581CE304A75382EB59A7F21C566D6 /* OCATMultiBlocks.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A737F6C92F90651532CF82395A89D726 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,18 +315,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		73C1A6CFDEE75E07A27F3585587CA234 /* PBXTargetDependency */ = {
+		C383CFA76DFD468CB7E044EBA2173C61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ATMultiBlocks;
 			target = 1DC75DEF454476B37203130B8A2CC008 /* ATMultiBlocks */;
-			targetProxy = 9E6C05D02E74FA2FB3664FC4C93B9822 /* PBXContainerItemProxy */;
+			targetProxy = 84C640FB0DE94B813C15F95B568A1963 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		124A1EC0AB694C71C2FF3E97B98349D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7ACE6073651F94A9DB9526D7AAF462F /* Pods-ATMultiBlocksDemo.debug.xcconfig */;
+			baseConfigurationReference = AECF7CF8C490B1785FFE4D7C1CBE675D /* Pods-ATMultiBlocksDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -291,21 +361,74 @@
 			};
 			name = Debug;
 		};
-		8045C02021C859616980DD230F7B2029 /* Release */ = {
+		58265F04780B0CFE7E923EFE848E6DAD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80535D7D064D18A2E4A247EDBC74EA6C /* ATMultiBlocks.release.xcconfig */;
+			baseConfigurationReference = EC6F633261BC738659B44560949717E9 /* ATMultiBlocks.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATMultiBlocks/ATMultiBlocks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATMultiBlocks/ATMultiBlocks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MODULEMAP_FILE = "Target Support Files/ATMultiBlocks/ATMultiBlocks.modulemap";
+				PRODUCT_MODULE_NAME = ATMultiBlocks;
+				PRODUCT_NAME = ATMultiBlocks;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F410C72D4D0471C4655EB5C85D6448A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9023F72FE92180CEC26E2E2D89ADEE /* ATMultiBlocks.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ATMultiBlocks/ATMultiBlocks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ATMultiBlocks/ATMultiBlocks-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ATMultiBlocks/ATMultiBlocks.modulemap";
+				PRODUCT_MODULE_NAME = ATMultiBlocks;
+				PRODUCT_NAME = ATMultiBlocks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -439,7 +562,7 @@
 		};
 		BA77182DD5BFB77BABC1A37A009F3495 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90F6516B846024ACDF12C2DE6FA9CBE7 /* Pods-ATMultiBlocksDemo.release.xcconfig */;
+			baseConfigurationReference = 82BE6B6D53D2B29D60C12ADC0D4EDAAE /* Pods-ATMultiBlocksDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -475,23 +598,6 @@
 			};
 			name = Release;
 		};
-		C67CF3A96DA864FBAE631ED2BCDED6CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3C2A1E895759DBA5C6C4BBFE1F555E5 /* ATMultiBlocks.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -513,11 +619,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DDBC3304EDBA4E7B4C71426EC16A13F /* Build configuration list for PBXAggregateTarget "ATMultiBlocks" */ = {
+		6B50D58272B55AD5BDFF0D835C1D2DFE /* Build configuration list for PBXNativeTarget "ATMultiBlocks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C67CF3A96DA864FBAE631ED2BCDED6CB /* Debug */,
-				8045C02021C859616980DD230F7B2029 /* Release */,
+				58265F04780B0CFE7E923EFE848E6DAD /* Debug */,
+				5F410C72D4D0471C4655EB5C85D6448A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1DC75DEF454476B37203130B8A2CC008"
-               BuildableName = "ATMultiBlocks"
+               BuildableName = "ATMultiBlocks.framework"
                BlueprintName = "ATMultiBlocks"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
